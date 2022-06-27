@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Shadows+Into+Light&display=swap');
+/* 
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Shadows Into Light', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#310a0d;
+    /* background-image: url('playing2.gif'); */
+}
+nav{
+    font-family: 'Shadows Into Light', cursive;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    align-items: center;
+}
+nav ul li {
+    padding: 0 1vw;
+}
+.brand img{
+    height: 7vh;
+    padding: 0 1vw 0 0;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+.github a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.container{
+    min-height: 70vh;
+    background-color:rgb(14, 14, 14);
+    color: whitesmoke;
+    font-family: 'Covered By Your Grace', cursive;
+    display: flex;
+    margin: 2vh auto;
+    width: 60vw;
+    border-radius: 10px;
+    padding: 2vh;
+    background-image: url('dagger5.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* justify-content: center; */
+
+}
+.bottom{
+    position: sticky;
+    height: 13vh;
+    background-color: rgba(11, 11, 11, 0.826);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Shadows Into Light', cursive;
+}
+.icons{
+    padding-bottom: 1.5vh;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItem{
+    height: 5vh;
+    width: 40vw;
+    display: flex;
+    /* background-color: white;
+    color: black; */
+    margin: 2vh 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    
+}
+.songItem img{
+    height: 4vh;
+    padding: 0 1vw;
+}
+.songItem span:hover{
+    color:darkred;
+}
+.timestamp{
+    margin-left: 1vw;
+
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
